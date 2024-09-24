@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(170deg, rgba(12, 14, 13, 0.7), rgba(10, 95, 43, 0.4)), url('/src/assets/bg5.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.container{
+  width: 60vw;
+  height: 40vh;
+  background: rgb(218, 255, 255);
+  padding: 48px 32px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  box-shadow: 10px 20px 40px 10px rgba(0, 0, 0, 0.2);
+ 
+} 
+
+.joke{
+  color: rgb(56, 43, 68);
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+  /* padding: 32px 0; */
+  width: 50vw;
+  height: 50vh;
+}
+
+.btn{
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.header{
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  font-family: "Syne", sans-serif;
+  /* text-transform: uppercase; */
+  font-weight: 800;
+  /* text-decoration: underline white; */
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke-width: 2px; 
+  -webkit-text-stroke-color: black;
+}
+
+.btn:hover{
+  color: rgb(249, 249, 19);
+  background: #ff4242;
+  transition: 300ms;
+}
+
+.copyButton{
+  background: none;
+  border-radius: 10px;
+  padding: 10px 13px; 
+  border: 1px solid #333;
+  margin-left: 10px;
+}
+
+.copyButton img{
+  width: 15px;
+  height: 15px;
+}
+
+.copyButton:hover{
+  background: #d1d1d1;
+  transition: 300ms;
+}
+
